@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CoBuy demo
 
-## Getting Started
+AI purchasing agent for independent restaurants. Hackathon stage prototype following Rose Tea Cafe (Oakland, Pittsburgh). All data is illustrative.
 
-First, run the development server:
+## Run
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+cp .env.example .env.local     # then paste your OpenRouter key into .env.local
+npm run dev                    # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Check that both AI routes and their fallbacks work (with the dev server running):
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run check:api
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Demo flow
 
-## Learn More
+1. **Invoices** (`/invoices`): upload `public/sample-invoice.png`. Line items are extracted by a vision model and appear one by one, then the "CoBuy noticed…" card appears.
+2. **Matches** (`/matches`): 5 restaurants, 4 names for the same fryer oil, with the AI's reason for each match and the look-alikes it rejected.
+3. **Group offer** (`/offer`): click **Join**. The pool goes from 34 to 42 jugs and unlocks the 9% tier.
+4. **Overview** (`/overview`): three months later.
+5. **Supplier view** (`/supplier`): pooled demand as a wholesaler sees it.
 
-To learn more about Next.js, take a look at the following resources:
+The printable invoice lives at `/sample-invoice` (regenerate the PNG with the script in `scripts/`).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Presenter controls (bottom of the sidebar)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Use cached AI**: skips the network and returns saved known-good responses after about 1.5 s, so it still looks live. Turn this on if the Wi-Fi is bad.
+- **Reset demo**: clears everything back to step 1.
 
-## Deploy on Vercel
+Even with the toggle off, any AI failure (no key, timeout over 12 s, bad JSON, a wrong fryer-oil match) automatically falls back to the cached response. Every number on stage comes from `/data`, not from the model.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Config
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Env var | Purpose |
+| --- | --- |
+| `OPENROUTER_API_KEY` | Server-side only; never sent to the browser |
+| `EXTRACT_MODEL` | OpenRouter model id for invoice reading (must support images) |
+| `MATCH_MODEL` | OpenRouter model id for product matching |
+
+## Layout
+
+- `data/`: seed data (invoice, catalog, neighbors, offers, dashboard, supplier) and `cached/` AI responses
+- `lib/`: types and zod schemas, offer math, demo state store, OpenRouter client
+- `app/api/extract`, `app/api/match`: AI routes with cache fallback
+- `app/(app)/*`: the five demo screens
