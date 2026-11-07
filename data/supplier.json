@@ -1,0 +1,13 @@
+{
+  "supplier": "Three Rivers Foodservice",
+  "area": "Oakland, Pittsburgh",
+  "period": "December 2026 (monthly)",
+  "summary": { "restaurants": 14, "committedValue": 9840, "formingValue": 6120 },
+  "demand": [
+    { "product": "Canola fryer oil", "packSize": "35 lb jug", "unit": "jugs", "qty": 42, "restaurants": 5, "status": "committed", "tierReached": "9% tier (40+)", "targetPrice": 38.68, "closes": "Nov 12" },
+    { "product": "Boneless chicken thighs", "packSize": "40 lb case", "unit": "cases", "qty": 14, "restaurants": 3, "status": "forming", "tierReached": "7% tier, 6 to 10%", "targetPrice": 91.51, "closes": "Nov 16" },
+    { "product": "9\" hinged to-go containers", "packSize": "200 ct case", "unit": "cases", "qty": 12, "restaurants": 4, "status": "forming", "tierReached": "Swap pending for 12%", "targetPrice": 33.66, "closes": "Nov 20" },
+    { "product": "Yellow onions", "packSize": "50 lb bag", "unit": "bags", "qty": 16, "restaurants": 4, "status": "forming", "tierReached": "Quote requested", "targetPrice": 26.50, "closes": "Nov 18" },
+    { "product": "Limes", "packSize": "200 ct case", "unit": "cases", "qty": 9, "restaurants": 3, "status": "committed", "tierReached": "6% tier", "targetPrice": 43.10, "closes": "Nov 14" }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "fryer-oil",
+    "catalogId": "fryer-oil-35lb",
+    "productName": "Canola fryer oil",
+    "packSize": "35 lb jug",
+    "unitLabel": "jug",
+    "supplier": "Three Rivers Foodservice",
+    "aloneUnitPrice": 42.50,
+    "tiers": [
+      { "minQty": 0, "discountPct": 5 },
+      { "minQty": 40, "discountPct": 9 }
+    ],
+    "myMonthlyQty": 8,
+    "othersCommittedQty": 34,
+    "othersCount": 4,
+    "feePctOfSavings": 10,
+    "deadline": "Closes Thu, Nov 12",
+    "nextDelivery": "Mon, Nov 16",
+    "pickupLocation": "Shared pickup: Restaurant B back dock, 0.6 mi (Forbes Ave)"
+  }
+]

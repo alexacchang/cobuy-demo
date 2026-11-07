@@ -1,0 +1,35 @@
+{
+  "_note": "Source of truth for the Rose Tea sample invoice. /sample-invoice renders it; cached/extract.json mirrors it.",
+  "supplier": {
+    "name": "Three Rivers Foodservice",
+    "address": ["2100 Smallman St", "Pittsburgh, PA 15222"],
+    "phone": "(412) 555-0187",
+    "email": "orders@threeriversfs.example"
+  },
+  "billTo": {
+    "name": "Rose Tea Cafe",
+    "address": ["414 S Craig St", "Pittsburgh, PA 15213"],
+    "accountNo": "RT-20419"
+  },
+  "invoiceNo": "TRF-104837",
+  "invoiceDate": "2026-10-28",
+  "dueDate": "2026-11-27",
+  "terms": "Net 30",
+  "route": "Oakland 3 / Tue-Fri",
+  "lineItems": [
+    { "sku": "40211", "rawName": "CANOLA FRY OIL 35LB JIB", "quantity": 8, "unit": "JUG", "unitPrice": 42.50, "lineTotal": 340.00 },
+    { "sku": "71830", "rawName": "CHKN THIGH BNLS SKNLS 40#", "quantity": 3, "unit": "CS", "unitPrice": 98.40, "lineTotal": 295.20 },
+    { "sku": "10544", "rawName": "ONION YELLOW JUMBO 50#", "quantity": 4, "unit": "BAG", "unitPrice": 31.75, "lineTotal": 127.00 },
+    { "sku": "10902", "rawName": "LIME PERSIAN 200CT", "quantity": 2, "unit": "CS", "unitPrice": 46.90, "lineTotal": 93.80 },
+    { "sku": "88315", "rawName": "CONT HNGD 9IN 1CMP FOAM-FREE 200CT", "quantity": 3, "unit": "CS", "unitPrice": 38.25, "lineTotal": 114.75 },
+    { "sku": "52207", "rawName": "TAPIOCA PEARL BLK 6.6LB", "quantity": 6, "unit": "BAG", "unitPrice": 14.20, "lineTotal": 85.20 },
+    { "sku": "30118", "rawName": "RICE JASMINE THAI 50#", "quantity": 2, "unit": "BAG", "unitPrice": 39.60, "lineTotal": 79.20 },
+    { "sku": "33460", "rawName": "SOY SAUCE LOW SOD 5GAL", "quantity": 1, "unit": "PAIL", "unitPrice": 34.80, "lineTotal": 34.80 },
+    { "sku": "89012", "rawName": "CUP PET CLR 24OZ 1000CT", "quantity": 2, "unit": "CS", "unitPrice": 61.50, "lineTotal": 123.00 },
+    { "sku": "31005", "rawName": "SUGAR GRAN CANE 50#", "quantity": 2, "unit": "BAG", "unitPrice": 36.40, "lineTotal": 72.80 }
+  ],
+  "subtotal": 1365.75,
+  "fuelSurcharge": 0,
+  "tax": 0,
+  "total": 1365.75
+}

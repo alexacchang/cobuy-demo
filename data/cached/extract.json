@@ -1,0 +1,16 @@
+{
+  "supplier": "Three Rivers Foodservice",
+  "invoiceDate": "2026-10-28",
+  "lineItems": [
+    { "rawName": "CANOLA FRY OIL 35LB JIB", "quantity": 8, "unit": "JUG", "unitPrice": 42.50, "lineTotal": 340.00 },
+    { "rawName": "CHKN THIGH BNLS SKNLS 40#", "quantity": 3, "unit": "CS", "unitPrice": 98.40, "lineTotal": 295.20 },
+    { "rawName": "ONION YELLOW JUMBO 50#", "quantity": 4, "unit": "BAG", "unitPrice": 31.75, "lineTotal": 127.00 },
+    { "rawName": "LIME PERSIAN 200CT", "quantity": 2, "unit": "CS", "unitPrice": 46.90, "lineTotal": 93.80 },
+    { "rawName": "CONT HNGD 9IN 1CMP FOAM-FREE 200CT", "quantity": 3, "unit": "CS", "unitPrice": 38.25, "lineTotal": 114.75 },
+    { "rawName": "TAPIOCA PEARL BLK 6.6LB", "quantity": 6, "unit": "BAG", "unitPrice": 14.20, "lineTotal": 85.20 },
+    { "rawName": "RICE JASMINE THAI 50#", "quantity": 2, "unit": "BAG", "unitPrice": 39.60, "lineTotal": 79.20 },
+    { "rawName": "SOY SAUCE LOW SOD 5GAL", "quantity": 1, "unit": "PAIL", "unitPrice": 34.80, "lineTotal": 34.80 },
+    { "rawName": "CUP PET CLR 24OZ 1000CT", "quantity": 2, "unit": "CS", "unitPrice": 61.50, "lineTotal": 123.00 },
+    { "rawName": "SUGAR GRAN CANE 50#", "quantity": 2, "unit": "BAG", "unitPrice": 36.40, "lineTotal": 72.80 }
+  ]
+}

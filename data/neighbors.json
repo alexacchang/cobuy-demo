@@ -1,0 +1,54 @@
+[
+  {
+    "label": "Restaurant A",
+    "distanceMi": 0.4,
+    "cuisine": "Korean fried chicken",
+    "lineItems": [
+      { "rawName": "Canola blend 35#", "monthlyQty": 10, "unit": "ea", "unitPrice": 43.10 },
+      { "rawName": "Chix thigh bnls 40#", "monthlyQty": 6, "unit": "cs", "unitPrice": 99.80 },
+      { "rawName": "Olive oil 3L tin", "monthlyQty": 4, "unit": "tin", "unitPrice": 27.50 },
+      { "rawName": "9x9 hinged clamshell 200/cs", "monthlyQty": 4, "unit": "cs", "unitPrice": 39.00 },
+      { "rawName": "Onions, yellow 50lb", "monthlyQty": 3, "unit": "bag", "unitPrice": 27.90 },
+      { "rawName": "Gochujang 14kg tub", "monthlyQty": 1, "unit": "tub", "unitPrice": 88.00 }
+    ]
+  },
+  {
+    "label": "Restaurant B",
+    "distanceMi": 0.6,
+    "cuisine": "Burgers and fries",
+    "lineItems": [
+      { "rawName": "Fry oil jug", "monthlyQty": 8, "unit": "jug", "unitPrice": 42.90 },
+      { "rawName": "Beef 80/20 ground 10#", "monthlyQty": 12, "unit": "chub", "unitPrice": 52.40 },
+      { "rawName": "Spanish onion jumbo 50 lb", "monthlyQty": 5, "unit": "sack", "unitPrice": 28.40 },
+      { "rawName": "Deli cup 32oz 500ct", "monthlyQty": 2, "unit": "cs", "unitPrice": 44.00 },
+      { "rawName": "Potato russet 50#", "monthlyQty": 10, "unit": "bag", "unitPrice": 24.30 }
+    ]
+  },
+  {
+    "label": "Restaurant C",
+    "distanceMi": 0.9,
+    "cuisine": "Thai",
+    "lineItems": [
+      { "rawName": "Clear fry 35 lb", "monthlyQty": 9, "unit": "jug", "unitPrice": 41.80 },
+      { "rawName": "Vegetable shortening 50 lb cube", "monthlyQty": 2, "unit": "cube", "unitPrice": 61.20 },
+      { "rawName": "Boneless thigh meat 4x10lb", "monthlyQty": 5, "unit": "cs", "unitPrice": 97.60 },
+      { "rawName": "Chicken wings jumbo 40 lb", "monthlyQty": 3, "unit": "cs", "unitPrice": 118.00 },
+      { "rawName": "Lime 200 count", "monthlyQty": 3, "unit": "cs", "unitPrice": 44.10 },
+      { "rawName": "Jasmine rice 50lb", "monthlyQty": 4, "unit": "bag", "unitPrice": 38.20 },
+      { "rawName": "HL 9in 3-comp 200", "monthlyQty": 3, "unit": "cs", "unitPrice": 40.50 }
+    ]
+  },
+  {
+    "label": "Restaurant D",
+    "distanceMi": 1.1,
+    "cuisine": "Taqueria",
+    "lineItems": [
+      { "rawName": "Fry oil jug", "monthlyQty": 7, "unit": "jug", "unitPrice": 43.40 },
+      { "rawName": "Sesame oil 1 gal", "monthlyQty": 1, "unit": "gal", "unitPrice": 31.00 },
+      { "rawName": "Limes 200ct", "monthlyQty": 4, "unit": "cs", "unitPrice": 45.30 },
+      { "rawName": "Yellow onion med 50", "monthlyQty": 4, "unit": "bag", "unitPrice": 27.60 },
+      { "rawName": "Hinged container 9\" 200", "monthlyQty": 2, "unit": "cs", "unitPrice": 38.80 },
+      { "rawName": "Corn tortilla 6in 30dz", "monthlyQty": 6, "unit": "cs", "unitPrice": 33.00 }
+    ]
+  }
+]

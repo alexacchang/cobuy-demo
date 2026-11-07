@@ -1,0 +1,10 @@
+[
+  { "id": "fryer-oil-35lb", "name": "Canola fryer oil", "packSize": "35 lb jug (JIB)", "category": "Oils", "description": "Clear liquid canola or canola-blend frying oil, 35 lb jug / jug-in-box, for deep fryers." },
+  { "id": "chicken-thigh-bnls-40lb", "name": "Boneless chicken thighs", "packSize": "40 lb case", "category": "Protein", "description": "Fresh boneless (usually skinless) chicken thigh meat, 40 lb case (e.g. 4 x 10 lb)." },
+  { "id": "container-9in-hinged-200", "name": "9\" hinged to-go container", "packSize": "200 ct case", "category": "Packaging", "description": "9 inch hinged-lid clamshell take-out container, 1 or 3 compartment, 200 per case." },
+  { "id": "onion-yellow-50lb", "name": "Yellow onions", "packSize": "50 lb bag", "category": "Produce", "description": "Yellow / Spanish onions, jumbo or medium, 50 lb sack." },
+  { "id": "lime-200ct", "name": "Limes", "packSize": "200 ct case", "category": "Produce", "description": "Persian limes, 200 count case." },
+  { "id": "rice-jasmine-50lb", "name": "Jasmine rice", "packSize": "50 lb bag", "category": "Dry goods", "description": "Thai jasmine long-grain rice, 50 lb bag." },
+  { "id": "cup-24oz-1000", "name": "24 oz clear cold cup", "packSize": "1000 ct case", "category": "Packaging", "description": "24 oz clear PET cold cup for drinks, 1000 per case." },
+  { "id": "sugar-gran-50lb", "name": "Granulated sugar", "packSize": "50 lb bag", "category": "Dry goods", "description": "White granulated cane sugar, 50 lb bag." }
+]

@@ -1,26 +1,56 @@
 @import "tailwindcss";
 
+/* CoBuy design tokens. Use these via Tailwind: bg-paper, text-ink, bg-green, text-amber, border-line, etc. */
+/* Fonts are self-hosted via @fontsource (imported in app/layout.tsx), so they work offline. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-inter: "Inter Variable";
+  --font-space-grotesk: "Space Grotesk Variable";
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-paper: #F7F6F2;      /* page background */
+  --color-card: #FFFFFF;       /* card surface */
+  --color-ink: #1C1F1A;        /* primary text */
+  --color-muted: #5B6157;      /* secondary text (passes contrast on paper) */
+  --color-line: #E3E1D9;       /* light borders */
+  --color-green: #1F6B4A;      /* primary */
+  --color-green-dark: #17543A; /* primary hover */
+  --color-mint: #8FD3A8;       /* highlight accent */
+  --color-mint-soft: #E4F4EA;  /* tinted mint background */
+  --color-amber: #8A4A12;      /* deadlines / warnings */
+  --color-amber-soft: #F6EADF; /* tinted amber background */
+  --color-sidebar: #161915;    /* dark sidebar */
+  --color-sidebar-line: #2A2E27;
+
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-space-grotesk);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html, body {
+  background: #F7F6F2;
+  color: #1C1F1A;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-space-grotesk), system-ui, sans-serif;
+  letter-spacing: -0.01em;
+}
+
+/* Money and quantities: always tabular */
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+@keyframes rise-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-rise-in {
+  animation: rise-in 420ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }

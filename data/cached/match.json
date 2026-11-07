@@ -1,0 +1,287 @@
+{
+  "groups": [
+    {
+      "catalogId": "fryer-oil-35lb",
+      "members": [
+        {
+          "restaurant": "Rose Tea Cafe",
+          "rawName": "CANOLA FRY OIL 35LB JIB",
+          "monthlyQty": 8,
+          "reason": "\"JIB\" is jug-in-box: a 35 lb jug of canola frying oil, the catalog product exactly.",
+          "confidence": 0.99
+        },
+        {
+          "restaurant": "Restaurant A",
+          "rawName": "Canola blend 35#",
+          "monthlyQty": 10,
+          "reason": "\"35#\" means 35 lb, and a canola blend is the standard clear fryer oil sold in that jug.",
+          "confidence": 0.95
+        },
+        {
+          "restaurant": "Restaurant B",
+          "rawName": "Fry oil jug",
+          "monthlyQty": 8,
+          "reason": "Same supplier jug for fryers; the $42.90 price and 8-jug monthly volume match a 35 lb canola jug.",
+          "confidence": 0.88
+        },
+        {
+          "restaurant": "Restaurant C",
+          "rawName": "Clear fry 35 lb",
+          "monthlyQty": 9,
+          "reason": "\"Clear fry\" is trade shorthand for liquid canola fry oil, and the 35 lb size matches.",
+          "confidence": 0.92
+        },
+        {
+          "restaurant": "Restaurant D",
+          "rawName": "Fry oil jug",
+          "monthlyQty": 7,
+          "reason": "Identical wording to Restaurant B and priced at $43.40, consistent with a 35 lb canola fry jug.",
+          "confidence": 0.87
+        }
+      ]
+    },
+    {
+      "catalogId": "chicken-thigh-bnls-40lb",
+      "members": [
+        {
+          "restaurant": "Rose Tea Cafe",
+          "rawName": "CHKN THIGH BNLS SKNLS 40#",
+          "monthlyQty": 3,
+          "reason": "Boneless skinless chicken thighs in a 40 lb case.",
+          "confidence": 0.98
+        },
+        {
+          "restaurant": "Restaurant A",
+          "rawName": "Chix thigh bnls 40#",
+          "monthlyQty": 6,
+          "reason": "\"Chix thigh bnls\" abbreviates boneless chicken thighs, 40 lb case.",
+          "confidence": 0.96
+        },
+        {
+          "restaurant": "Restaurant C",
+          "rawName": "Boneless thigh meat 4x10lb",
+          "monthlyQty": 5,
+          "reason": "Four 10 lb packs make the same 40 lb case of boneless thigh meat.",
+          "confidence": 0.93
+        }
+      ]
+    },
+    {
+      "catalogId": "container-9in-hinged-200",
+      "members": [
+        {
+          "restaurant": "Rose Tea Cafe",
+          "rawName": "CONT HNGD 9IN 1CMP FOAM-FREE 200CT",
+          "monthlyQty": 3,
+          "reason": "9 inch hinged one-compartment container, 200 per case.",
+          "confidence": 0.97
+        },
+        {
+          "restaurant": "Restaurant A",
+          "rawName": "9x9 hinged clamshell 200/cs",
+          "monthlyQty": 4,
+          "reason": "A 9x9 hinged clamshell at 200 per case is the same container format.",
+          "confidence": 0.9
+        },
+        {
+          "restaurant": "Restaurant C",
+          "rawName": "HL 9in 3-comp 200",
+          "monthlyQty": 3,
+          "reason": "\"HL\" is hinged lid; a 3-compartment 9 inch version of the same 200 ct container.",
+          "confidence": 0.82
+        },
+        {
+          "restaurant": "Restaurant D",
+          "rawName": "Hinged container 9\" 200",
+          "monthlyQty": 2,
+          "reason": "9 inch hinged container, 200 count.",
+          "confidence": 0.91
+        }
+      ]
+    },
+    {
+      "catalogId": "onion-yellow-50lb",
+      "members": [
+        {
+          "restaurant": "Rose Tea Cafe",
+          "rawName": "ONION YELLOW JUMBO 50#",
+          "monthlyQty": 4,
+          "reason": "Jumbo yellow onions in a 50 lb bag.",
+          "confidence": 0.98
+        },
+        {
+          "restaurant": "Restaurant A",
+          "rawName": "Onions, yellow 50lb",
+          "monthlyQty": 3,
+          "reason": "Yellow onions, 50 lb.",
+          "confidence": 0.97
+        },
+        {
+          "restaurant": "Restaurant B",
+          "rawName": "Spanish onion jumbo 50 lb",
+          "monthlyQty": 5,
+          "reason": "Spanish onions are large yellow onions, sold in the same 50 lb sack.",
+          "confidence": 0.9
+        },
+        {
+          "restaurant": "Restaurant D",
+          "rawName": "Yellow onion med 50",
+          "monthlyQty": 4,
+          "reason": "Medium yellow onions, 50 lb bag.",
+          "confidence": 0.93
+        }
+      ]
+    },
+    {
+      "catalogId": "lime-200ct",
+      "members": [
+        {
+          "restaurant": "Rose Tea Cafe",
+          "rawName": "LIME PERSIAN 200CT",
+          "monthlyQty": 2,
+          "reason": "Persian limes, 200 count case.",
+          "confidence": 0.98
+        },
+        {
+          "restaurant": "Restaurant C",
+          "rawName": "Lime 200 count",
+          "monthlyQty": 3,
+          "reason": "Limes, 200 count case.",
+          "confidence": 0.97
+        },
+        {
+          "restaurant": "Restaurant D",
+          "rawName": "Limes 200ct",
+          "monthlyQty": 4,
+          "reason": "Limes, 200 count case.",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "catalogId": "rice-jasmine-50lb",
+      "members": [
+        {
+          "restaurant": "Rose Tea Cafe",
+          "rawName": "RICE JASMINE THAI 50#",
+          "monthlyQty": 2,
+          "reason": "Thai jasmine rice, 50 lb bag.",
+          "confidence": 0.98
+        },
+        {
+          "restaurant": "Restaurant C",
+          "rawName": "Jasmine rice 50lb",
+          "monthlyQty": 4,
+          "reason": "Jasmine rice, 50 lb bag.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "catalogId": "cup-24oz-1000",
+      "members": [
+        {
+          "restaurant": "Rose Tea Cafe",
+          "rawName": "CUP PET CLR 24OZ 1000CT",
+          "monthlyQty": 2,
+          "reason": "Clear 24 oz PET cold cup, 1000 per case.",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "catalogId": "sugar-gran-50lb",
+      "members": [
+        {
+          "restaurant": "Rose Tea Cafe",
+          "rawName": "SUGAR GRAN CANE 50#",
+          "monthlyQty": 2,
+          "reason": "Granulated cane sugar, 50 lb bag.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "catalogId": null,
+      "members": [
+        {
+          "restaurant": "Rose Tea Cafe",
+          "rawName": "TAPIOCA PEARL BLK 6.6LB",
+          "monthlyQty": 6,
+          "reason": "Tapioca pearls are not in the catalog.",
+          "confidence": 0.95
+        },
+        {
+          "restaurant": "Rose Tea Cafe",
+          "rawName": "SOY SAUCE LOW SOD 5GAL",
+          "monthlyQty": 1,
+          "reason": "Soy sauce is not in the catalog.",
+          "confidence": 0.95
+        },
+        {
+          "restaurant": "Restaurant A",
+          "rawName": "Olive oil 3L tin",
+          "monthlyQty": 4,
+          "reason": "Olive oil in a 3 L tin is a different oil and pack size, not fryer oil.",
+          "confidence": 0.96
+        },
+        {
+          "restaurant": "Restaurant A",
+          "rawName": "Gochujang 14kg tub",
+          "monthlyQty": 1,
+          "reason": "Gochujang is not in the catalog.",
+          "confidence": 0.97
+        },
+        {
+          "restaurant": "Restaurant B",
+          "rawName": "Beef 80/20 ground 10#",
+          "monthlyQty": 12,
+          "reason": "Ground beef is not in the catalog.",
+          "confidence": 0.97
+        },
+        {
+          "restaurant": "Restaurant B",
+          "rawName": "Deli cup 32oz 500ct",
+          "monthlyQty": 2,
+          "reason": "A 32 oz deli cup is a different size and use than the 24 oz cold cup.",
+          "confidence": 0.9
+        },
+        {
+          "restaurant": "Restaurant B",
+          "rawName": "Potato russet 50#",
+          "monthlyQty": 10,
+          "reason": "Potatoes are not in the catalog.",
+          "confidence": 0.97
+        },
+        {
+          "restaurant": "Restaurant C",
+          "rawName": "Vegetable shortening 50 lb cube",
+          "monthlyQty": 2,
+          "reason": "Shortening is a solid fat sold in 50 lb cubes, not 35 lb liquid fryer oil.",
+          "confidence": 0.93
+        },
+        {
+          "restaurant": "Restaurant C",
+          "rawName": "Chicken wings jumbo 40 lb",
+          "monthlyQty": 3,
+          "reason": "Wings are a different cut from boneless thighs, despite the same case size.",
+          "confidence": 0.95
+        },
+        {
+          "restaurant": "Restaurant D",
+          "rawName": "Sesame oil 1 gal",
+          "monthlyQty": 1,
+          "reason": "Sesame oil is a flavoring oil in a 1 gal size, not fryer oil.",
+          "confidence": 0.96
+        },
+        {
+          "restaurant": "Restaurant D",
+          "rawName": "Corn tortilla 6in 30dz",
+          "monthlyQty": 6,
+          "reason": "Tortillas are not in the catalog.",
+          "confidence": 0.97
+        }
+      ]
+    }
+  ]
+}

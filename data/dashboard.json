@@ -1,0 +1,42 @@
+{
+  "asOf": "Nov 7, 2026",
+  "joinedSince": "June 2026",
+  "savedThisMonth": 160,
+  "savedSinceJoining": 940,
+  "monthlySavings": [
+    { "month": "Jun", "amount": 48 },
+    { "month": "Jul", "amount": 96 },
+    { "month": "Aug", "amount": 131 },
+    { "month": "Sep", "amount": 214 },
+    { "month": "Oct", "amount": 291 },
+    { "month": "Nov", "amount": 160, "partial": true }
+  ],
+  "openOffers": [
+    { "id": "fryer-oil", "productName": "Canola fryer oil", "packSize": "35 lb jug", "discountPct": 9, "savePerMonth": 31, "status": "Tier reached", "deadline": "Closes Thu, Nov 12" },
+    { "id": "chicken-thighs", "productName": "Boneless chicken thighs", "packSize": "40 lb case", "discountPct": 7, "savePerMonth": 64, "status": "6 cases to next tier", "deadline": "Closes Mon, Nov 16" },
+    { "id": "containers", "productName": "9\" hinged to-go containers", "packSize": "200 ct case", "discountPct": 12, "savePerMonth": 27, "status": "Needs 1 product swap", "deadline": "Closes Fri, Nov 20" }
+  ],
+  "priceAlert": {
+    "product": "Yellow onions, 50 lb",
+    "message": "Your onion price is up 18% since August. Nearby restaurants pay less.",
+    "yourPrice": 31.75,
+    "augustPrice": 26.90,
+    "nearbyMedian": 27.90
+  },
+  "swapSuggestion": {
+    "title": "Switch to one 9\" container and unlock 12% off",
+    "message": "3 nearby restaurants use slightly different 9\" containers. If all switch to one, the group reaches the 12% tier.",
+    "variants": [
+      { "restaurant": "You", "rawName": "CONT HNGD 9IN 1CMP FOAM-FREE 200CT" },
+      { "restaurant": "Restaurant A", "rawName": "9x9 hinged clamshell 200/cs" },
+      { "restaurant": "Restaurant C", "rawName": "HL 9in 3-comp 200" },
+      { "restaurant": "Restaurant D", "rawName": "Hinged container 9\" 200" }
+    ],
+    "recommended": "9\" hinged 1-compartment, foam-free, 200 ct"
+  },
+  "upcomingDeliveries": [
+    { "date": "Mon, Nov 9", "items": "Boneless chicken thighs x 3 cs", "method": "To your door", "supplier": "Three Rivers Foodservice" },
+    { "date": "Thu, Nov 12", "items": "9\" hinged containers x 3 cs", "method": "Shared pickup", "supplier": "Allegheny Paper Supply" },
+    { "date": "Mon, Nov 16", "items": "Canola fryer oil x 8 jugs", "method": "To your door", "supplier": "Three Rivers Foodservice" }
+  ]
+}
